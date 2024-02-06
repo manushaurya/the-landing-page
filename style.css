@@ -1,11 +1,18 @@
 .logo {
     height: 150px;
 }
+.hero-logo-text {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #f9faf8;
+    justify-content: start; 
+}
 .header {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 15px 350px;
+    padding: 15px 150px;
+    flex-direction: column;
 }
 .header-links {
     list-style-type: none;
@@ -23,4 +30,14 @@
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+}
+.hero-main-text{
+    color: #f9faf8;
+}
+.button {
+    background-color: #3882F6;
+    color: #f9faf8;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 18px;
 }
